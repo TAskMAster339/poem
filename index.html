@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="description" content="Личный каталог рассказов, романов, игр и литературных экспериментов Дмитрия Гришко." />
+    <meta name="theme-color" content="#e4004f" />
+    <meta name="author" content="Дмитрий Гришко" />
+    <meta property="og:title" content="Сборник сочинений Дмитрия Гришко" />
+    <meta property="og:description" content="Рассказы, романы, игры и литературные эксперименты." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://taskmaster339.github.io/poem/" />
+    <title>Сборник сочинений — Дмитрий Гришко</title>
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=Noto+Sans+JP:wght@500;700;900&family=Oswald:wght@400;500;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!--
+    THESIS: Литературный каталог как малотиражный японский сборник; он отказывается от карточной библиотеки в пользу открытого оглавления.
+    OWN-WORLD: Sleeve cream #F7F3E8, obi red #E4004F, ink black #111111, risograph #FF2A5B, квадратные рамки и фактура washi.
+    STORY: Автор и назначение сборника → категории произведений → возвращение к основному портфолио.
+    FIRST VIEWPORT: Красный авторский obi слева, крупное название сборника и прямой переход к оглавлению справа.
+    FORM: brief-pinned literary release index / established Shibuya sleeve extension.
+    FINISH: unreviewed and undocumented is unfinished; this build ends with the finish review, the verdict, DESIGN.md, and every shipping raster carrying its provenance
+    -->
+    <a class="skip-link" href="#catalog">К произведениям</a>
+
+    <header class="hero" id="top">
+      <aside class="hero-obi" aria-label="Об авторе и навигация">
+        <div class="author">
+          <strong>Дмитрий<br />Гришко</strong>
+          <span>Сборник сочинений · 2026</span>
+        </div>
+        <nav aria-label="Разделы сборника">
+          <a href="#stories"><span lang="ja">物語</span>Рассказы</a>
+          <a href="#novels"><span lang="ja">長編</span>Романы</a>
+          <a href="#games"><span lang="ja">遊戯</span>Игры</a>
+          <a href="#experiments"><span lang="ja">実験</span>Эксперименты</a>
+        </nav>
+        <a class="author-link" href="https://t.me/TAskMAster339" target="_blank" rel="noopener">Telegram · @TAskMAster339</a>
+      </aside>
+
+      <div class="hero-stage">
+        <span class="hero-kanji" aria-hidden="true">文</span>
+        <p class="catalog-mark"><span lang="ja">私家版</span> PRIVATE EDITION · DG-01</p>
+        <div class="hero-copy">
+          <h1>Сборник<br />сочинений</h1>
+          <p>Рассказы, романы, игры и эксперименты — в одном авторском каталоге.</p>
+        </div>
+        <a class="catalog-link" href="#catalog">
+          <span>Открыть оглавление</span>
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" /></svg>
+        </a>
+      </div>
+    </header>
+
+    <main id="catalog">
+      <header class="catalog-head">
+        <div>
+          <span lang="ja">作品目録</span>
+          <h2>Произведения</h2>
+        </div>
+        <p>Разделы уже готовы для публикации. Новые тексты будут появляться здесь в виде прямых ссылок.</p>
+      </header>
+
+      <section class="collection" id="stories" aria-labelledby="stories-title">
+        <header>
+          <span class="collection-kanji" aria-hidden="true">短</span>
+          <div><p lang="ja">短編小説</p><h2 id="stories-title">Рассказы</h2></div>
+        </header>
+        <ol class="works-list">
+          <!-- Пример: <li><a href="works/story.html"><span>Название рассказа</span><em>2026 · рассказ</em></a></li> -->
+          <li class="empty"><span>—</span><p>Первый рассказ готовится к публикации.</p></li>
+        </ol>
+      </section>
+
+      <section class="collection collection-gray" id="novels" aria-labelledby="novels-title">
+        <header>
+          <span class="collection-kanji" aria-hidden="true">長</span>
+          <div><p lang="ja">長編小説</p><h2 id="novels-title">Романы</h2></div>
+        </header>
+        <ol class="works-list">
+          <!-- Пример: <li><a href="works/novel.html"><span>Название романа</span><em>2026 · роман</em></a></li> -->
+          <li class="empty"><span>—</span><p>Романы появятся в этом разделе.</p></li>
+        </ol>
+      </section>
+
+      <section class="collection collection-dark" id="games" aria-labelledby="games-title">
+        <header>
+          <span class="collection-kanji" aria-hidden="true">遊</span>
+          <div><p lang="ja">物語ゲーム</p><h2 id="games-title">Игры</h2></div>
+        </header>
+        <ol class="works-list">
+          <!-- Пример: <li><a href="works/game.html"><span>Название игры</span><em>2026 · интерактивная история</em></a></li> -->
+          <li class="empty"><span>—</span><p>Здесь будут интерактивные произведения и игры.</p></li>
+        </ol>
+      </section>
+
+      <section class="collection" id="experiments" aria-labelledby="experiments-title">
+        <header>
+          <span class="collection-kanji" aria-hidden="true">実</span>
+          <div><p lang="ja">文学実験</p><h2 id="experiments-title">Эксперименты</h2></div>
+        </header>
+        <ol class="works-list">
+          <!-- Пример: <li><a href="works/experiment.html"><span>Название эксперимента</span><em>2026 · эксперимент</em></a></li> -->
+          <li class="empty"><span>—</span><p>Нестандартные форматы появятся здесь.</p></li>
+        </ol>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div>
+        <strong>Дмитрий Гришко</strong>
+        <span>Личный литературный каталог</span>
+      </div>
+      <a class="back-link" href="https://taskmaster339.github.io/">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19 12H5m6 6-6-6 6-6" /></svg>
+        <span>Вернуться к резюме</span>
+      </a>
+      <small>© 2026 · Частное издание</small>
+    </footer>
+  </body>
+</html>

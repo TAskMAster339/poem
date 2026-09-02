@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <pattern id="fiber" width="12" height="12" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="3" r=".5" fill="#fff" opacity=".22"/>
+      <path d="M6 9h5M1 7h3" stroke="#111" stroke-width=".35" opacity=".18"/>
+    </pattern>
+  </defs>
+  <rect width="64" height="64" fill="#e4004f"/>
+  <rect width="64" height="64" fill="url(#fiber)"/>
+  <rect x="2" y="2" width="60" height="60" fill="none" stroke="#111" stroke-width="2"/>
+  <text x="32" y="47" fill="#fff" font-family="'Yu Gothic','Noto Sans JP','Meiryo',sans-serif" font-size="42" font-weight="900" text-anchor="middle">開</text>
+</svg>
