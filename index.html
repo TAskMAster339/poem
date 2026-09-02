@@ -23,7 +23,7 @@
     OWN-WORLD: Sleeve cream #F7F3E8, obi red #E4004F, ink black #111111, risograph #FF2A5B, квадратные рамки и фактура washi.
     STORY: Автор и назначение сборника → категории произведений → возвращение к основному портфолио.
     FIRST VIEWPORT: Красный авторский obi слева, крупное название сборника и прямой переход к оглавлению справа.
-    FORM: brief-pinned literary release index / established Shibuya sleeve extension.
+    FORM: brief-pinned literary release index / established Shibuya sleeve extension / seed e4dddb8c.
     FINISH: unreviewed and undocumented is unfinished; this build ends with the finish review, the verdict, DESIGN.md, and every shipping raster carrying its provenance
     -->
     <a class="skip-link" href="#catalog">К произведениям</a>
@@ -59,9 +59,9 @@
 
     <main id="catalog">
       <header class="catalog-head">
-        <div>
-          <span lang="ja">作品目録</span>
+        <div class="catalog-title">
           <h2>Произведения</h2>
+          <span lang="ja">作品目録</span>
         </div>
         <p>Разделы уже готовы для публикации. Новые тексты будут появляться здесь в виде прямых ссылок.</p>
       </header>
@@ -69,7 +69,7 @@
       <section class="collection" id="stories" aria-labelledby="stories-title">
         <header>
           <span class="collection-kanji" aria-hidden="true">短</span>
-          <div><p lang="ja">短編小説</p><h2 id="stories-title">Рассказы</h2></div>
+          <div class="collection-title"><h2 id="stories-title">Рассказы</h2><span lang="ja">短編小説</span></div>
         </header>
         <ol class="works-list">
           <!-- Пример: <li><a href="works/story.html"><span>Название рассказа</span><em>2026 · рассказ</em></a></li> -->
@@ -80,7 +80,7 @@
       <section class="collection collection-gray" id="novels" aria-labelledby="novels-title">
         <header>
           <span class="collection-kanji" aria-hidden="true">長</span>
-          <div><p lang="ja">長編小説</p><h2 id="novels-title">Романы</h2></div>
+          <div class="collection-title"><h2 id="novels-title">Романы</h2><span lang="ja">長編小説</span></div>
         </header>
         <ol class="works-list">
           <!-- Пример: <li><a href="works/novel.html"><span>Название романа</span><em>2026 · роман</em></a></li> -->
@@ -91,7 +91,7 @@
       <section class="collection collection-dark" id="games" aria-labelledby="games-title">
         <header>
           <span class="collection-kanji" aria-hidden="true">遊</span>
-          <div><p lang="ja">物語ゲーム</p><h2 id="games-title">Игры</h2></div>
+          <div class="collection-title"><h2 id="games-title">Игры</h2><span lang="ja">物語ゲーム</span></div>
         </header>
         <ol class="works-list">
           <!-- Пример: <li><a href="works/game.html"><span>Название игры</span><em>2026 · интерактивная история</em></a></li> -->
@@ -102,7 +102,7 @@
       <section class="collection" id="experiments" aria-labelledby="experiments-title">
         <header>
           <span class="collection-kanji" aria-hidden="true">実</span>
-          <div><p lang="ja">文学実験</p><h2 id="experiments-title">Эксперименты</h2></div>
+          <div class="collection-title"><h2 id="experiments-title">Эксперименты</h2><span lang="ja">文学実験</span></div>
         </header>
         <ol class="works-list">
           <!-- Пример: <li><a href="works/experiment.html"><span>Название эксперимента</span><em>2026 · эксперимент</em></a></li> -->
